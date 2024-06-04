@@ -1,5 +1,5 @@
 const sendInput = document.querySelector("input");
-const newItem = document.querySelector("items");
+const items = document.querySelector("#items");
 
 sendInput.addEventListener('keydown', function (event) {
         if (event.key == 'Enter') {
